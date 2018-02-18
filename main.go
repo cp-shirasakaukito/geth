@@ -10,5 +10,5 @@ func main() {
 
   fmt.Println(animals.ElephantFeed())
   fmt.Println(animals.RabbitFeed())
-  fmt.Println(animals.MonkyFeed())
+  fmt.Println(animals.MonkeyFeed())
 }
