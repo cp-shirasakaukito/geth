@@ -3,6 +3,4 @@ FROM golang:latest
 WORKDIR /go
 ADD . /go
 
-CMD ["go", "run", "main.go"]
-
-
+CMD ["go", "run", "main.go", "app.go"]
