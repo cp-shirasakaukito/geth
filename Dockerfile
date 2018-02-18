@@ -3,4 +3,4 @@ FROM golang:latest
 WORKDIR /go
 ADD . /go
 
-CMD ["go", "test", "./animals"]
+CMD ["go", "test", "-v"]
